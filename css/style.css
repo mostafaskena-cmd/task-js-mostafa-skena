@@ -270,3 +270,24 @@ footer {
 }
 
 /* end style footer  */
+@media(max-width:768px){
+    #navbar{
+        flex-wrap: wrap;
+        padding: 25px 70px;
+        gap: 15px;
+    }
+    .Home-content{
+        padding: 10px;
+        max-width: 100%;
+    }
+    #Destinations{
+        padding: 0;
+    }
+.Destinations-content{
+    flex-wrap: wrap;
+    width: 100%;
+} 
+    .Destinations-details{
+        max-width: 100%;
+    }
+}
