@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* start style navbar  */
+#navbar {
+  padding: 28px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar h2 span {
+  color: #e9a23b;
+}
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: #555;
+  transition-duration: 0.5s;
+}
+#navbar ul li a:hover {
+  color: #c98421;
+}
+.ExploreNow {
+  background-color: #17202a;
+
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+}
+/* end style navbar  */
+
+/* start style Home  */
+#Home {
+  height: 450px;
+  background: linear-gradient(
+    90deg,
+    rgba(15, 25, 35, 0.85),
+    rgba(15, 25, 35, 0.25)
+  );
+}
+.Home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 80px 165px;
+  max-width: 35%;
+}
+.Discover {
+  color: #e9a23b;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.Home-content span {
+  color: #e9a23b;
+}
+.Home-content h1 {
+  font-size: 60px;
+  line-height: 1.1;
+  color: white;
+}
+.Home-content p {
+  color: white;
+  line-height: 1.7;
+}
+.Home-content a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #e9a23b;
+  width: fit-content;
+  border-radius: 5px;
+  transition-duration: 1s;
+}
+.Home-content a:hover {
+  background-color: #c98421;
+  transform: translateY(-3px);
+}
+
+/* end style Home  */
+
+/* start style Destinations  */
+#Destinations {
+  margin-block: 30px;
+  padding: 28px 120px;
+}
+.Destinations-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.Destinations-header h2 {
+  font-size: 35px;
+}
+.Destinations-header p {
+  color: #777;
+}
+
+.Destinations-content {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.PhotoCity {
+  position: relative;
+  width: 50%;
+}
+.PhotoCity img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.photo-descirption {
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  bottom: 17%;
+  right: 7%;
+  padding: 7px 18px;
+}
+.photo-descirption p {
+  color: #999;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+#NumberImage {
+  font-size: 30px;
+  color: #e9a23b;
+  font-weight: bold;
+}
+.Destinations-details {
+  padding: 30px;
+
+  max-width: 44%;
+}
+#CityNumber {
+  color: #e9a23b;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#CityName {
+  color: #999;
+  letter-spacing: 4px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+#City {
+  font-size: 47px;
+  margin-top: 15px;
+}
+#CityDescription {
+  color: #777;
+  line-height: 1.9;
+  margin-top: 15px;
+}
+
+.information {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin-bottom: 25px;
+}
+.information h4 {
+  font-size: 16px;
+  margin-top: 15px;
+}
+#Continent,
+#Food,
+#Place,
+#Language {
+  color: #999;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#ExploreMore {
+  padding: 13px 24px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #17202a;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+#ExploreMore:hover {
+  background-color: #e9a23b;
+}
+
+.btns {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.active {
+  background-color: #c98421;
+}
+.btn-style {
+  background-color: #17202a;
+  color: white;
+  border: none;
+  padding: 13px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-style:hover {
+  background-color: #e9a23b;
+}
+/* end style Destinations  */
+
+/* start style about  */
+
+#AboutUs {
+  background-color: #17202a;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+#AboutUs h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#AboutUs p {
+  color: #ccc;
+}
+/* end style about  */
+/* start style footer  */
+
+footer {
+  background-color: #101820;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
+
+/* end style footer  */
